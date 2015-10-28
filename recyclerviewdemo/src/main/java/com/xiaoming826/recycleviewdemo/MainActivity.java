@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         list.add("横向格子");
         list.add("有头和尾的列表");
         list.add("瀑布流效果");
+        list.add("效果");
         list.add("我是来卖萌的");
         list.add("我是来卖萌的");
         list.add("我是来卖萌的");

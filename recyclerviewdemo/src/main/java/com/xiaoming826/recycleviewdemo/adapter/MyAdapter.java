@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.xiaoming826.recycleviewdemo.HeadListActivity;
 import com.xiaoming826.recycleviewdemo.R;
+import com.xiaoming826.recycleviewdemo.ResultActivity;
 
 import java.util.List;
 
@@ -82,7 +83,15 @@ public class MyAdapter  extends RecyclerView.Adapter<MyAdapter.MyHolder> {
                     recyclerView.setLayoutManager(new GridLayoutManager(context, 3, GridLayoutManager.HORIZONTAL, false));
                     break;
                 case 4:
+                    Toast.makeText(context, "还没做", Toast.LENGTH_SHORT).show();
+                    break;
+                case 5:
                     startActivity(HeadListActivity.class);
+                    break;
+
+
+                case 6:
+                    startActivity(ResultActivity.class);
                     break;
 
                 default:
