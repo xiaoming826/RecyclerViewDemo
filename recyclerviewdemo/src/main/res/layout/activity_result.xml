@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.xiaoming826.recycleviewdemo.ResultActivity">
 
-    <View
+    <ImageView
         android:id="@+id/v_title"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#FF7777"/>
+        android:background="@drawable/headbar"/>
 
     <ImageView
         android:id="@+id/iv_ad"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:layout_below="@id/v_title"
         android:scaleType="fitXY"
         android:src="@drawable/ad"/>

@@ -19,12 +19,15 @@ public class ResultActivity extends AppCompatActivity {
 
         List<Result> list=new ArrayList<Result>();
         list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
-        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
-        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
-        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
-        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
-        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
-        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.luntan));
+        list.add(new Result("曼论坛",R.drawable.dot_blue,R.drawable.dahuamancheng));
+        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.zhuzaimancheng));
+        list.add(new Result("曼论坛",R.drawable.dot_blue,R.drawable.xiangqin));
+        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.yue));
+        list.add(new Result("曼论坛",R.drawable.dot_blue,R.drawable.xueba));
+        list.add(new Result("曼论坛",R.drawable.dot_blue,R.drawable.mantaobao));
+        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.sheep));
+        list.add(new Result("曼论坛",R.drawable.dot_yellow,R.drawable.shejian));
+        list.add(new Result("曼论坛",R.drawable.dot_blue,R.drawable.weixin));
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rcv_result);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false));

@@ -56,9 +56,11 @@ public class ResultAdapter extends RecyclerView.Adapter<ResultAdapter.MyHolder> 
         }
 
         public void setData(int position){
+
             name.setText(list.get(position).getName());
             icon.setImageDrawable(context.getResources().getDrawable(list.get(position).getIcon()));
             image.setImageDrawable(context.getResources().getDrawable(list.get(position).getImage()));
+
         }
     }
 
