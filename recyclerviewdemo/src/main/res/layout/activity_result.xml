@@ -15,7 +15,7 @@
     <ImageView
         android:id="@+id/iv_ad"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="165dp"
         android:layout_below="@id/v_title"
         android:scaleType="fitXY"
         android:src="@drawable/ad"/>
